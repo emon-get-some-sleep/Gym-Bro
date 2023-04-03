@@ -8,11 +8,19 @@ import adidas from '../../assets/adidas.png';
 import nike from '../../assets/nike.png';
 import tick from '../../assets/tick.png';
 
-
+import './Reasons.css'
 const Reasons = () => {
     return (
-        <div id="reasons" className='reasons'>
-            
+        <div id="reasons" className='Reasons'>
+            <div className="left-r">
+                <img src={image1} alt="" />
+                <img src={image2} alt="" />
+                <img src={image3} alt="" />
+                <img src={image4} alt="" />
+            </div>
+            <div className="right-r">
+
+            </div>
         </div>
     );
 };
