@@ -1,6 +1,11 @@
 import React from 'react';
 import './Hero.css';
 import Header from '../Header/Header';
+import hero_image from '../../assets/hero_image.png';
+import hero_image_back from '../../assets/hero_image_back.png';
+import Heart from '../../assets/heart.png';
+import Calories from '../../assets/calories.png';
+
 const Hero = () => {
     return (
         <div className='hero'>
@@ -52,7 +57,7 @@ const Hero = () => {
                 {/* hero buttons  */}
                 <div className="hero-buttons">
                     <button className="btn">Get Started</button>
-                    <button className="btn">Learn More</button>
+                    <button className="btn">Learn More </button>
                 </div>
             </div>
             <div className="right-h">right side</div>
