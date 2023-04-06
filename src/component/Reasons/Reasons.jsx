@@ -43,6 +43,16 @@ const Reasons = () => {
             <span>RELATABLE PARTNERS</span>
           </div>
         </div>
+        <span style={{
+            color: 'var(--gray)',
+            fontWeight: 'normal',
+        }}>OUR PARTNERS</span>
+        <div className="partners">
+          <img src={nb} alt="" />
+          <img src={adidas} alt="" />
+          <img src={nike} alt="" />
+        </div>
+
       </div>
     </div>
   );
